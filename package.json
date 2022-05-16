@@ -1,0 +1,9 @@
+{
+      "name": "google-app-engine-node-deploy-example",
+      "scripts": {
+        "start": "node index.js"
+      },
+      "dependencies": {
+        "express": "^4.17.1"
+      }
+    }
