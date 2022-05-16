@@ -8,7 +8,11 @@ app.get("/", async (req, res) => {
 });
 app.get("/test", async (req, res) => {
       res.json({ status: "testing" });
-    });
+});
+
+app.get("/test2", async (req, res) => {
+      res.json({ status: "testing2" });
+});
 
 app.listen(port, () => {
   console.log(`App listening on port ${port}`);
